@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="JS/script.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="alert alert-success" id="successDiv" style="display: none;"></div>
+            <div class = "form-box clearfix">
+                <form method ="POST" id='comment-add' class= " pull-left clearfix">
+                    <input class= "inputs" type="text" id="firstName" name="firstname" placeholder="First Name"/>
+                    </br>
+                    <input class= "inputs" type="text" id="lastName" name="lastname" placeholder="Last Name"/>
+                    <div class = "radio-buttons">Gender
+                        </br>
+                        <input type="radio" name="gender" value="F" checked> F
+                        </br>
+                        <input type="radio" name="gender" value="M"> M
+                        </br>
+                    </div>
+                    <textarea class= "message" name="content" placeholder="Your message here"></textarea>
+                    </br>
+                    <input class = "pull-right button" type="submit" value="Submit"/>
+                    </br>
+                </form>
+                <img class = "pull-right form-image" src = "https://maxcdn.icons8.com/Share/icon/Dusk_Wired/User_Interface//form1600.png" alt = "Image">
+            </div>
+        </div>
+    </body>
+</html>
